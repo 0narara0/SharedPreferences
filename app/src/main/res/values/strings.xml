@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SharedPreferences</string>
+    <string name="sharedrenferenceactivity">Shared Reference Activity</string>
+    <string name="referenceinput">Reference Input</string>
+    <string name="referenceget">Reference Get</string>
+    <string name="sharedpreference">Input Shared Preference</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail</string>
+    <string name="save">Save</string>
+    <string name="getsharedreference">Get Shared Reference</string>
+</resources>
