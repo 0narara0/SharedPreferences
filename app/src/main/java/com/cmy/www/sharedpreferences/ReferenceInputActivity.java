@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class ReferenceInputActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -38,6 +39,8 @@ public class ReferenceInputActivity extends AppCompatActivity implements View.On
         editor.putString("Password", editTextPasswordString);
         editor.putString("Email", editTextEmailString);
         editor.commit();
+
+        Toast.makeText(this,"Thanks!!",Toast.LENGTH_SHORT).show();
 
     }
 }
